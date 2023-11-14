@@ -16,6 +16,8 @@ Navigate to the project directory using the following command:
 ```bash
 cd documents/aqua_titan
 
+sudo su
+
 python3 gps.py
 
 python3 led.py
