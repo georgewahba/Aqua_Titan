@@ -1,11 +1,25 @@
-gps in uart port__
-led in d5 en d16 port__
-servo in pwm port__
-moisture sensor in a0 port__
+# Aqua Titan Project
 
-cd documents/aqua_titan__
+Welcome to the Aqua Titan project! This project involves setting up various components for an aquaponics system. Follow the instructions below to configure and run each module.
 
-python3 gps.py__
-python3 led.py__
-python3 moisture.py 0__
-python3 servo.py 12__
+## Connections
+
+- GPS: Connect to the UART port.
+- LED: Connect LEDs to D5 and D16 ports.
+- Servo: Connect servo to the PWM port.
+- Moisture Sensor: Connect to A0 port.
+
+## Project Directory
+
+Navigate to the project directory using the following command:
+
+```bash
+cd documents/aqua_titan
+
+python3 gps.py
+
+python3 led.py
+
+python3 moisture.py 0
+
+python3 servo.py 12
